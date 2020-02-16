@@ -52,9 +52,9 @@ public class lesson_2 {
         System.out.println();
 //Задание 5
 
-        int[] arr5 = {3, 4, 5, 6, 7, 1, 2, 4, 8, 9};
-        int max = 0;
-        for (int i = 0; i < arr5.length; i++) {
+         int[] arr5 = {3, 4, 5, 6, 7, 1, 2, 4, 8, 9};
+         int max = 0;
+         for (int i = 0; i < arr5.length; i++) {
             if (max < arr5[i]) {
                 max = arr5[i];
             }
