@@ -41,9 +41,9 @@ public class Lesson_4 {
         for (int i = 0; i < SIZE; i++) {
             for (int j = 0; j < SIZE; j++) {
                 checkWinLine(i, j, symb);
-                checkWinColumn(i,j,symb);
-                checkWinDiag1(i,j,symb);
-                checkWinDiag2(i,j,symb);
+                checkWinColumn(i, j, symb);
+                checkWinDiag1(i, j, symb);
+                checkWinDiag2(i, j, symb);
 
             }return true;
         }return false;
