@@ -5,6 +5,7 @@ public class Cat extends Animals {
     public Cat (String name,String color, int age, int maxRun, float maxJump, int maxSwim){
         super(name, color, age, maxRun, maxJump, maxSwim);
     }
+
     @Override
     public void run(int r){
         if(r >0 && r <= maxRun) {

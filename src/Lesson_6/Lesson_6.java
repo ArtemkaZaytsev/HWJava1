@@ -18,6 +18,7 @@ public class Lesson_6 {
                     new Dog("Muhtar", "white", 3,400, 1.5f, 15),
                     new Dog("Dzhek", "red", 4, 600, 2, 6)
            };
+
            arrayDog[0].run(250);
 
 

@@ -12,12 +12,14 @@ public class Dog extends Animals {
             System.out.println(name + " run: " + r + " m");
         }
     }
+
     @Override
     public void jump(float j){
         if(j >0 && j <= maxJump){
             System.out.println(name + " jump: " + j + " m");
         }
     }
+
     @Override
     public void swim(int s){
         if(s >0 && s <= maxSwim) {
