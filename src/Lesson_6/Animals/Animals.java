@@ -20,6 +20,8 @@ public abstract class Animals {
         this.maxSwim = maxSwim;
     }
     public abstract void run(int r);
+
     public abstract void jump(float j);
+
     public abstract void swim(int s);
 }
