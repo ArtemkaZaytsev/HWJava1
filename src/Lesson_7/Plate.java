@@ -25,7 +25,7 @@ public class Plate {
         return food;
     }
 
-    public void addInPlate(int food) {
-        this.food = food;
+    public void addInPlate(int addFood) {
+        food += addFood;
     }
 }
